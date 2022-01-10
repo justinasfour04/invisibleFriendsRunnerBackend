@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "npx nodemon src/index.ts",
     "start": "npx ts-node src/index.ts",
-    "test": "node test.js"
+    "deploy": "git add . && git commit -m Heroku && git push heroku main"
   },
   "dependencies": {
     "body-parser": "^1.19.1",
